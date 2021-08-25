@@ -7,8 +7,9 @@
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
-    right: -120px;
-    top: 146px;
+    right: -360px;
+    top: 0px;
+    z-index: -1;
 }
 .img-main{
     display: block;

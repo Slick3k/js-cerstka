@@ -4,8 +4,8 @@
 @import "img.css";
 .container{
     position: relative;
-    max-width: 1920px;
-    align-items: center;
+    max-width: 1680px;
+    margin: 0 auto;
 }
 .header{
     display: flex;
@@ -34,22 +34,21 @@
     margin-bottom: 499px;
 }
 .header{
-    padding: 0 120px;
+
 }
 .section-first{
-    padding: 0 120px;
+
 }
 .section-second{
     background: #F0DFB4;
-    padding: 0 120px;
+    padding: 86px 0 92px 0;
 }
 .section-third{
-    padding: 0 120px;
+
 }
 .box-second{
     display: flex;
     flex-direction: row;
-    padding: 86px 0 93px;
 }
 .box-second-right{
     display: flex;
