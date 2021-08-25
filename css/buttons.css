@@ -1,0 +1,59 @@
+.btn-header{
+    font-family: Raleway, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    letter-spacing: -0.24px;
+    color: #0A1935;
+    text-decoration: none;
+    margin-right: 20px;
+}
+.btn-matrix{
+    text-decoration: none;
+    margin: 23px 295px 18px 0;
+}
+.btn-fill{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 14px 28px;
+    color: #FAF8F6;
+    background: #8358F3;
+    border-radius: 12px;
+    text-decoration: none;
+}
+.btn-outline{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 24px 18px;
+    border: 1px solid #8358F3;
+    box-sizing: border-box;
+    border-radius: 12px;
+    text-decoration: none;
+}
+.btn-login{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 14px 28px 14px 24px;
+    border: 1px solid #0A1935;
+    box-sizing: border-box;
+    border-radius: 12px;
+    text-decoration: none;
+}
+.btn-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 14px 28px;
+}
+.btn-calc{
+    margin:0 28px;
+}

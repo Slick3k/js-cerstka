@@ -1,0 +1,59 @@
+@import "buttons.css";
+@import "normalize.css";
+@import "text style.css";
+@import "img.css";
+.container{
+    position: relative;
+    max-width: 1920px;
+    align-items: center;
+}
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-left{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.box-login {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin: 20px 0 10px;
+}
+.box-main{
+    max-width: 1016px;
+    margin: 144px 0 80px;
+}
+.block-calc{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 499px;
+}
+.header{
+    padding: 0 120px;
+}
+.section-first{
+    padding: 0 120px;
+}
+.section-second{
+    background: #F0DFB4;
+    padding: 0 120px;
+}
+.section-third{
+    padding: 0 120px;
+}
+.box-second{
+    display: flex;
+    flex-direction: row;
+    padding: 86px 0 93px;
+}
+.box-second-right{
+    display: flex;
+    flex-direction: row;
+    max-width: 1067px;
+}
+

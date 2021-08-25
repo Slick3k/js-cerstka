@@ -1,0 +1,120 @@
+.h1{
+    font-family: Raleway, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 64px;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    color: #0A1935;
+    margin: 0;
+}
+.h2{
+    font-family: Raleway, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 52px;
+    line-height: 68px;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    color: #0A1935;
+    padding: 0 135px 0 0;
+    margin: 0;
+}
+.h3{
+    font-family: Raleway, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 52px;
+    line-height: 68px;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    color: #0A1935;
+    margin: 272px 0 0;
+    display: block;
+    max-width: 1120px;
+}
+.text-main{
+    font-family: Source Sans Pro, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 44px;
+    letter-spacing: -0.2px;
+    color: #0A1935;
+    padding:24px 250px 0 0;
+    margin: 0;
+}
+.text-second{
+    font-family: Source Sans Pro, sans-serif;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 44px;
+    letter-spacing: -0.2px;
+    color: #0A1935;
+    margin: 0 0 0 24px;
+}
+.btn-login{
+    font-family: Raleway, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    letter-spacing: -0.24px;
+    color: #0A1935;
+}
+.btn-header{
+    font-family: Raleway, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    letter-spacing: -0.24px;
+    color: #0A1935;
+}
+.btn-calc{
+    font-family: Raleway, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    letter-spacing: -0.24px;
+    color: #FAF8F6;
+}
+.btn-fill{
+    font-family: Raleway, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    letter-spacing: -0.24px;
+}
+.btn-outline{
+    font-family: Raleway, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: -0.32px;
+    color: #8358F3;
+}
+.text-calc{
+    padding: 0 0 0 56px;
+    font-family: Source Sans Pro, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 32px;
+    color: #0A1935;
+}
+.btn-matrix{
+    font-family: Inter, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 39px;
+    color: #0A1935;
+}

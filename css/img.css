@@ -1,0 +1,25 @@
+.box-main:before{
+    content: "";
+    position: absolute;
+    background-image: url("../img/img-main.png");
+    width: 1173px;
+    height: 785px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    right: -120px;
+    top: 146px;
+}
+.img-main{
+    display: block;
+    position: absolute;
+}
+.img-cov1{
+    width: 34px;
+    height: 24px;
+}
+.img-cov2{
+    width: 34px;
+    height: 24px;
+    padding: 186px 0 0;
+}
