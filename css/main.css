@@ -55,4 +55,23 @@
     flex-direction: row;
     max-width: 1067px;
 }
-
+.box-answer{
+display: flex;
+    flex-direction: column;
+}
+.box-answer-upper{
+display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 82px 0 0 0;
+}
+.box-answer-down{
+display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 82px 0 0 0;
+}
+.box-answer-text{
+    display: flex;
+    flex-direction: row;
+}

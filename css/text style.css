@@ -31,6 +31,16 @@
     display: block;
     max-width: 1120px;
 }
+.h4{
+    font-family: Raleway, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 52px;
+    line-height: 68px;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    color: #0A1935;
+    margin: 272px 0 0;
+}
 .text-main{
     font-family: Source Sans Pro, sans-serif;
     font-style: normal;
@@ -51,6 +61,18 @@
     letter-spacing: -0.2px;
     color: #0A1935;
     margin: 0 0 0 24px;
+}
+.text-answer{
+    font-family: Source Sans Pro, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 44px;
+    letter-spacing: -0.2px;
+    color: #0A1935;
+    width: 332px;
+    height: 132px;
+    margin: 0 0 0 36px;
 }
 .btn-login{
     font-family: Raleway, sans-serif;
