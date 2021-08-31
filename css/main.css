@@ -75,3 +75,14 @@ display: flex;
     display: flex;
     flex-direction: row;
 }
+.section-five{
+    background: #F0DFB4;
+    margin: 164px 0 0;
+    padding: 50px 0;
+}
+.box-fourth{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}

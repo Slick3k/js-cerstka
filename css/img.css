@@ -28,4 +28,14 @@
     width: 89px;
     height: 89px;
 }
-.img-answer
+.img-circle{
+   width: 82px;
+    height: 82px;
+}
+.arrow-horizontal{
+    width: 216px;
+    height: 13px;
+}
+.arrow-vertical{
+    display: none;
+}
