@@ -133,6 +133,16 @@
     letter-spacing: -0.32px;
     color: #8358F3;
 }
+.btn-bonus{
+    font-family: Raleway, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: -0.32px;
+    color: #8358F3;
+}
 .text-calc{
     padding: 0 0 0 56px;
     font-family: Source Sans Pro, sans-serif;
@@ -149,4 +159,92 @@
     font-size: 32px;
     line-height: 39px;
     color: #0A1935;
+}
+.text-1{
+    font-family: Raleway,sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 36px;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    color: #8358F3;
+}
+.ul-text li{
+    font-family: Raleway,sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 26px;
+    letter-spacing: -0.24px;
+    color: #0A1935;
+}
+li::marker{
+    color: #8358F3;
+    font-size: 34px;
+}
+.text-outline{
+    font-family: Raleway,sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 26px;
+    letter-spacing: -0.24px;
+    color: #0A1935;
+}
+.text-outline:last-of-type{
+    margin-bottom: 0;
+}
+.text-gift{
+    font-family: Raleway,sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 28px;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    color: #0A1935;
+    margin: 0 0 20px 0;
+}
+.text-head{
+    font-family: Raleway, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 36px;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    color: #0A1935;
+    margin: 0 0 8px;
+}
+.text-card{
+    font-family: Raleway, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 26px;
+    letter-spacing: -0.24px;
+    color: #0A1935;
+    margin: 0;
+}
+.btn-complete{
+    font-family: Raleway, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: -0.32px;
+    color: #FAF8F6;
+}
+.text-complete{
+    display: block;
+    max-width: 772px;
+    position: absolute;
+    left: 106px;
+    top: -170px;
+    font-family: Raleway, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    color: #FAF8F6;
 }

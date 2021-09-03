@@ -39,3 +39,30 @@
 .arrow-vertical{
     display: none;
 }
+.img-sale{
+    width: 24px;
+    height: 24px;
+    padding: 0 10px 0 0;
+}
+.img-ticket{
+    width: 24px;
+    height: 24px;
+    padding: 0 8px 0 0;
+}
+.img-number{
+    height: 86px;
+    width: 60px;
+    padding: 0 40px 0 0;
+}
+.div-complete:before{
+    content: "";
+    background-image: url("../img/complete.jpg");
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    z-index: -1;
+    position: absolute;
+    width: 1678px;
+    height: 528px;
+    border-radius: 18px;
+}

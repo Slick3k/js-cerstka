@@ -2,6 +2,7 @@
 @import "normalize.css";
 @import "text style.css";
 @import "img.css";
+@import "accordion.css";
 .container{
     position: relative;
     max-width: 1680px;
@@ -86,3 +87,56 @@ display: flex;
     justify-content: space-between;
     align-items: center;
 }
+.card{
+    display: flex;
+    flex-direction: column;
+    max-width: 388px;
+    background: #FAF8FA;
+    box-shadow: 0 10px 15px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+    border-radius: 12px;
+    padding: 24px 24px 32px;
+    margin: 82px 0 272px;
+}
+.div-outline{
+    padding: 16px 24px 18px;
+    border: 1px solid #8358F3;
+    box-sizing: border-box;
+    border-radius: 12px;
+    margin-bottom: 30px;
+}
+.box-cards{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 82px 0 0;
+}
+.card-left{
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+}
+.card-right{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+.card-heading{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 24px 32px 24px 36px;
+    background: #FAF8FA;
+    border-radius: 12px;
+    margin: 0 0 40px;
+    box-shadow: 10px 10px 15px -5px rgba(0, 0, 0, 0.1), 10px 10px 10px -5px rgba(0, 0, 0, 0.1);
+}
+.box-accordion{
+    margin: 82px 0 0;
+}
+.div-complete{
+   display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 500px 0 0 0;
+}
+

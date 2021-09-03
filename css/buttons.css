@@ -36,6 +36,18 @@
     border-radius: 12px;
     text-decoration: none;
 }
+.btn-bonus{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 16px 24px 18px;
+    border: 1px solid #8358F3;
+    box-sizing: border-box;
+    border-radius: 12px;
+    text-decoration: none;
+    margin-bottom: 48px;
+}
 .btn-login{
     display: flex;
     flex-direction: row;
@@ -57,3 +69,18 @@
 .btn-calc{
     margin:0 28px;
 }
+.btn-complete{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 317px;
+    left:106px;
+    top:-18px;
+    padding: 23px 74px;
+    color: #FAF8F6;
+    background: #8358F3;
+    border-radius: 12px;
+    text-decoration: none;
+}
+
