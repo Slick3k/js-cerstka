@@ -8,7 +8,7 @@
     background-position: center;
     background-repeat: no-repeat;
     right: -360px;
-    top: 0px;
+    top: 0;
     z-index: -1;
 }
 .img-main{
@@ -54,6 +54,7 @@
     width: 60px;
     padding: 0 40px 0 0;
 }
+/* TODO: Со мной фиксил, думаю помнишь как */
 .div-complete:before{
     content: "";
     background-image: url("../img/complete.jpg");

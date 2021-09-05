@@ -3,6 +3,7 @@
 @import "text style.css";
 @import "img.css";
 @import "accordion.css";
+/* TODO: В мейне всё инпорты, онли */
 .container{
     position: relative;
     max-width: 1680px;
