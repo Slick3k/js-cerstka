@@ -24,6 +24,8 @@
     background: #8358F3;
     border-radius: 12px;
     text-decoration: none;
+    cursor: pointer;
+    border: none;
 }
 .btn-outline{
     display: flex;
@@ -82,5 +84,9 @@
     background: #8358F3;
     border-radius: 12px;
     text-decoration: none;
+}
+.btn-form{
+    margin: 36px 0 0 0;
+    width: 100%;
 }
 

@@ -5,9 +5,6 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="css/main.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
     <title>js</title>
 </head>
 <body style='overflow-x:hidden;'>
@@ -49,33 +46,39 @@
     </section>
     <section class="section-third container">
         <h3 class="h3">Бесплатный онлайн-калькулятор Матрицы судьбы с полной расшифровкой</h3>
+        <div class="section-third-content">
         <form action="#" method="post" enctype="multipart/form-data" class="form">
-            <div>
-                <input type="radio" name="matrix" checked> Матрица
-                <input type="radio" name="matrix">Совместимость партнеров
-
-                <!-- TODO: вот так это пишется — фикси везде-->
-                <label>
-                    <input type="radio" name="matrix">
-                    Детская матрица
+            <div class="form-toggle-box">
+                <div class="form-toggle toggle-active">Матрица</div>
+                <div class="form-toggle">Совместимость партнеров</div>
+                <div class="form-toggle">Детская матрица</div>
+            </div>
+            <div class="form-first-line">
+                <label class="label">
+                    <input class="input" type="text" name="username" placeholder="Ваше имя*">
                 </label>
+                <div class="toggle-sex">
+                    <div class="form-toggle sex toggle-active">M</div>
+                    <div class="form-toggle sex">Ж</div>
+                </div>
             </div>
-            <input type="text" name="username" placeholder="Ваше имя*">
-            <div>
-                <input type="radio" name="gender" checked>М
-                <input type="radio" name="gender">Ж
-            </div>
-            <input type="date" name="birthday" placeholder="Дата рождения">
-            <select name="language"> Язык*
-                <option value="english">Английский</option>
-                <option value="russian">Русский</option>
-                <option value="deutsch">Немецкий</option>
-            </select>
-            <button name="calc">Рассчитать</button>
+
+            <label class="label">
+                <input class="input"  type="text" name="birthday" placeholder="Дата рождения*">
+            </label>
+            <label>
+                <select class="select" name="language">
+                    <option value="english">Английский</option>
+                    <option value="russian">Русский</option>
+                    <option value="deutsch">Немецкий</option>
+                </select>
+            </label>
+            <button class="btn-fill btn-form" name="calc">Рассчитать</button>
         </form>
         <p class="text-third">Наш сервис позволяет автоматически рассчитать матрицу
             судьбы по дате рождения и даёт полную расшифровку
             по каждому пункту. Его возможности ты можешь бесплатно попробовать прямо сейчас. Для этого заполни форму.</p>
+        </div>
 
     </section>
     <section class="section-fourth container">

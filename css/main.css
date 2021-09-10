@@ -1,8 +1,13 @@
-@import "buttons.css";
 @import "normalize.css";
+@import "font.css";
+
 @import "text style.css";
+@import "buttons.css";
 @import "img.css";
 @import "accordion.css";
+@import "form.css";
+
+
 /* TODO: В мейне всё инпорты, онли */
 .container{
     position: relative;
@@ -139,5 +144,12 @@ display: flex;
     flex-direction: column;
     justify-content: center;
     margin: 500px 0 0 0;
+}
+
+.section-third-content{
+    display: flex;
+    flex-direction: row;
+    margin-top: 82px;
+    justify-content: space-between;
 }
 

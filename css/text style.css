@@ -64,6 +64,18 @@
     color: #0A1935;
     margin: 0 0 0 24px;
 }
+.text-third{
+    max-width: 830px;
+    font-family: Source Sans Pro, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 44px;
+    letter-spacing: -0.2px;
+    color: #0A1935;
+    padding: 0;
+    margin: 0;
+}
 .text-answer{
     font-family: Source Sans Pro, sans-serif;
     font-style: normal;
